@@ -1,0 +1,384 @@
+Git log piosenka.txt 
+PS C:\Users\domin\Documents\kurs_21\piosenka1> git log -p piosenka.txt
+commit 02c46d2bc072c1e697ff7a91389c051e77b2265a
+Author: Dominik Rupental <dominik1504@tlen.pl>
+Date:   Sat May 27 13:15:15 2023 +0200
+
+    Dodano pierwszą zwrotkę
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 7f8a149..9f75638 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,37 +1,11 @@
+-Can I be honest?
+-I still want your hands up on my body
+-You still make my heart beat fast, Ferrari
+-With me in the wave, but in the morning
+-Do you still want me?
++Zwrotka1
+
+-Can I be honest?
+-I still want your hands up on my body
+-You still make my heart beat fast, Ferrari
+-With me in the wave, but in the morning
+-Do you still want me?
++Refren1
+
+-Can I be honest?
+-Do you still want me?
++Zwrotka2
+
+-(Want me?)
+-Can I be honest?
+-I still want your hands up on my body
+-You still make my heart beat fast, Ferrari
+-With me in the wave, but in the morning
+-Do you still want me?
++Refren2
+
+-Can I be honest?
+-I still want your hands up on my body
+-You still make my heart beat fast, Ferrari
+-With me in the wave, but in the morning
+-Do you still want me?
++Zwrotka3
+
+-Do you still want me?
+-
+-Can I be honest?
+-
+-Can I be honest?
+-I still want your hands up on my body
+-You still make my heart beat fast, Ferrari
+-With me in the wave, but in the morning
+-Do you still want me?
+\ No newline at end of file
++Refren3
+
+commit db006c54b5fdd770792c7c87e91c60943fc4afa9
+Author: Dominik Rupental <dominik1504@tlen.pl>
+Date:   Sat May 27 13:12:28 2023 +0200
+
+    Dodano tekst piosenki
+
+diff --git a/piosenka.txt b/piosenka.txt
+new file mode 100644
+index 0000000..7f8a149
+--- /dev/null
++++ b/piosenka.txt
+@@ -0,0 +1,37 @@
++Can I be honest?
++I still want your hands up on my body
++You still make my heart beat fast, Ferrari
++With me in the wave, but in the morning
++Do you still want me?
++
++Can I be honest?
++I still want your hands up on my body
++You still make my heart beat fast, Ferrari
++With me in the wave, but in the morning
++Do you still want me?
++
++Can I be honest?
++Do you still want me?
++
++(Want me?)
++Can I be honest?
++I still want your hands up on my body
++You still make my heart beat fast, Ferrari
++With me in the wave, but in the morning
++Do you still want me?
++
++Can I be honest?
++I still want your hands up on my body
++You still make my heart beat fast, Ferrari
++With me in the wave, but in the morning
++Do you still want me?
++
++Do you still want me?
++
++Can I be honest?
++
++Can I be honest?
++I still want your hands up on my body
++You still make my heart beat fast, Ferrari
++With me in the wave, but in the morning
++Do you still want me?
+\ No newline at end of file
+(END)
++With me in the wave, but in the morning
++Do you still want me?
++
++Can I be honest?
++Do you still want me?
++
++(Want me?)
++Can I be honest?
++I still want your hands up on my body
++You still make my heart beat fast, Ferrari
++With me in the wave, but in the morning
++Do you still want me?
++
++Can I be honest?
++I still want your hands up on my body
++You still make my heart beat fast, Ferrari
++With me in the wave, but in the morning
++Do you still want me?
++
++Do you still want me?
++
++Can I be honest?
++
++Can I be honest?
++I still want your hands up on my body
++You still make my heart beat fast, Ferrari
++With me in the wave, but in the morning
++Do you still want me?
+\ No newline at end of file
+
+///////////////////////
+
+Git log zwrotka1.txt
+
+PS C:\Users\domin\Documents\kurs_21\piosenka1> git log -p zwrotka1.txt
+commit 02c46d2bc072c1e697ff7a91389c051e77b2265a
+Author: Dominik Rupental <dominik1504@tlen.pl>
+Date:   Sat May 27 13:15:15 2023 +0200
+
+    Dodano pierwszą zwrotkę
+
+diff --git a/zwrotka1.txt b/zwrotka1.txt
+new file mode 100644
+index 0000000..2953423
+--- /dev/null
++++ b/zwrotka1.txt
+@@ -0,0 +1,4 @@
++I wake up to the sounds of the silence that allows
++For my mind to run around with my ear up to the ground
++I'm searching to behold the stories that are told
++When my back is to the world that was smiling when I turned
+
+////////////
+
+Git log zwrotka2.txt
+
+PS C:\Users\domin\Documents\kurs_21\piosenka1> git log -p zwrotka2.txt
+commit ccbefdfb9f77702550c5e40d2331301748b05ccf (HEAD -> master)
+Author: Dominik Rupental <dominik1504@tlen.pl>
+Date:   Mon May 29 15:23:09 2023 +0200
+
+    Dodano historie
+
+diff --git a/zwrotka2.txt b/zwrotka2.txt
+index e69de29..e7dad3d 100644
+--- a/zwrotka2.txt
++++ b/zwrotka2.txt
+@@ -0,0 +1,4 @@
++Your words up on the wall as you're praying for my fall
++And the laughter in the halls and the names that I've been called
++I stack it in my mind and I'm waiting for the time
++When I show you what it's like to be words spit in a mic
+\ No newline at end of file
+
+commit d4d9c457760e2af2223c287873ece7e83267c5d2
+Author: Dominik Rupental <dominik1504@tlen.pl>
+Date:   Sat May 27 13:16:08 2023 +0200
+
+    Dodano drugą zwrotkę
+
+diff --git a/zwrotka2.txt b/zwrotka2.txt
+new file mode 100644
+index 0000000..e69de29
+
+////////
+
+Git log zwrotka3.txt
+PS C:\Users\domin\Documents\kurs_21\piosenka1> git log -p zwrotka3.txt
+commit cbf2467b8174a1302a0651962d03eedfe833e8c6
+Author: Dominik Rupental <dominik1504@tlen.pl>
+Date:   Sat May 27 13:16:53 2023 +0200
+
+    Dodano trzecią zwrotkę
+
+diff --git a/zwrotka3.txt b/zwrotka3.txt
+new file mode 100644
+index 0000000..7a713ed
+--- /dev/null
++++ b/zwrotka3.txt
+@@ -0,0 +1,19 @@
++Uh, look
++Okay, I'm hoping that somebody pray for me
++I'm praying that somebody hope for me
++I'm staying where nobody 'posed to be
++P-P-Posted, being a wreck of emotions
++Ready to go whenever, just let me know
++The road is long, so put the pedal into the floor
++The enemy on my trail, my energy unavailable
++I'ma tell 'em, "Hasta luego"
++They wanna plot on my trot to the top
++I've been outta shape, thinkin' out the box, I'm an astronaut
++I blasted off the planet rock to cause catastrophe
++And it matters more because I had it not
++Had I thought about wreaking havoc on an opposition
++Kinda shocking they wanted static with precision, I'm automatic
++Quarterback, I ain't talkin' sacking
++Pack it, pack it up, I don't panic
+
+//////////
+Git log refren1.txt
+
+PS C:\Users\domin\Documents\kurs_21\piosenka1> git log -p refren1.txt
+commit ae96cb6f2e9b6ce456ea81053af7e13827fc313a
+Author: Dominik Rupental <dominik1504@tlen.pl>
+Date:   Sat May 27 14:09:44 2023 +0200
+
+    Revert "Usunięto jedną linijke refrenu"
+
+    This reverts commit 1b54109edaafa20f6b7c8961559c29bbfa1c636a.
+
+diff --git a/refren1.txt b/refren1.txt
+index be1ea15..a496e1d 100644
+--- a/refren1.txt
++++ b/refren1.txt
+@@ -2,6 +2,7 @@ Tell you you're the greatest
+ But once you turn, they hate us
+ Oh, the misery
+ Everybody wants to be my enemy
++Spare the sympathy
+ Everybody wants to be my enemy
+ (Look out for yourself)
+ My enemy (look, look, look, look)
+
+commit 1b54109edaafa20f6b7c8961559c29bbfa1c636a
+Author: Dominik Rupental <dominik1504@tlen.pl>
+Date:   Sat May 27 13:28:34 2023 +0200
+
+    Usunięto jedną linijke refrenu
+
+diff --git a/refren1.txt b/refren1.txt
+index a496e1d..be1ea15 100644
+
+////////
+
+Git log reften2.txt
+
+PS C:\Users\domin\Documents\kurs_21\piosenka1> git log -p refren2.txt
+commit a5fc2e73e34d99df51c79c151293778cd6acea09
+Author: Dominik Rupental <dominik1504@tlen.pl>
+Date:   Sat May 27 13:19:10 2023 +0200
+
+    Dodano drugi refren
+
+diff --git a/refren2.txt b/refren2.txt
+new file mode 100644
+index 0000000..a496e1d
+--- /dev/null
++++ b/refren2.txt
+@@ -0,0 +1,9 @@
++Tell you you're the greatest
++But once you turn, they hate us
++Oh, the misery
++Everybody wants to be my enemy
++Spare the sympathy
++Everybody wants to be my enemy
++(Look out for yourself)
++My enemy (look, look, look, look)
++(Look out for yourself)
+
+///////
+
+Git log reften3.txt
+
+commit fa6813fe42d7509aacae9726f82ea119d9097dd2
+Author: Dominik Rupental <dominik1504@tlen.pl>
+Date:   Sat May 27 13:19:56 2023 +0200
+
+    Dodano trzeci refren
+
+diff --git a/refren3.txt b/refren3.txt
+new file mode 100644
+index 0000000..d733568
+--- /dev/null
++++ b/refren3.txt
+@@ -0,0 +1,13 @@
++Everybody wants to be my enemy
++Spare the sympathy
++Everybody wants to be
++My enemy
++Oh, the misery
++Everybody wants to be my enemy
++Spare the sympathy
++Everybody wants to be my enemy
++Pray it away, I swear
++I'll never be a saint, no way
++My enemy
++Pray it away, I swear
++I'll never be a saint
+\ No newline at end of file
+
+////
+
+GIT LOG:
+PS C:\Users\domin\Documents\kurs_21\piosenka1> git log
+commit ccbefdfb9f77702550c5e40d2331301748b05ccf (HEAD -> master)
+Author: Dominik Rupental <dominik1504@tlen.pl>
+Date:   Mon May 29 15:23:09 2023 +0200
+
+    Dodano historie
+
+commit ae96cb6f2e9b6ce456ea81053af7e13827fc313a
+Author: Dominik Rupental <dominik1504@tlen.pl>
+Date:   Sat May 27 14:09:44 2023 +0200
+
+    Revert "Usunięto jedną linijke refrenu"
+
+    This reverts commit 1b54109edaafa20f6b7c8961559c29bbfa1c636a.
+
+commit 1b54109edaafa20f6b7c8961559c29bbfa1c636a
+Author: Dominik Rupental <dominik1504@tlen.pl>
+Date:   Sat May 27 13:28:34 2023 +0200
+
+    Usunięto jedną linijke refrenu
+
+commit fa6813fe42d7509aacae9726f82ea119d9097dd2
+Author: Dominik Rupental <dominik1504@tlen.pl>
+Date:   Sat May 27 13:19:56 2023 +0200
+
+    Dodano trzeci refren
+
+commit a5fc2e73e34d99df51c79c151293778cd6acea09
+Author: Dominik Rupental <dominik1504@tlen.pl>
+Date:   Sat May 27 13:19:10 2023 +0200
+
+    Dodano drugi refren
+
+commit 607d57736b472506d8b54a85b675e849d6e96525
+Author: Dominik Rupental <dominik1504@tlen.pl>
+Date:   Sat May 27 13:17:49 2023 +0200
+
+    Dodano pierwszy refren
+
+commit cbf2467b8174a1302a0651962d03eedfe833e8c6
+Author: Dominik Rupental <dominik1504@tlen.pl>
+Date:   Sat May 27 13:16:53 2023 +0200
+
+    Dodano trzecią zwrotkę
+
+commit d4d9c457760e2af2223c287873ece7e83267c5d2
+Author: Dominik Rupental <dominik1504@tlen.pl>
+Date:   Sat May 27 13:16:08 2023 +0200
+
+    Dodano drugą zwrotkę
+
+commit 02c46d2bc072c1e697ff7a91389c051e77b2265a
+Author: Dominik Rupental <dominik1504@tlen.pl>
+Date:   Sat May 27 13:15:15 2023 +0200
+
+    Dodano pierwszą zwrotkę
+
+commit db006c54b5fdd770792c7c87e91c60943fc4afa9
+Author: Dominik Rupental <dominik1504@tlen.pl>
+Date:   Sat May 27 13:12:28 2023 +0200
+
+    Dodano tekst piosenki
